@@ -1,0 +1,37 @@
+document.addEventListener('deviceready', onDeviceReady, false);
+
+function onDeviceReady() {
+    // Cordova is now initialized. Have fun!
+    console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
+    document.getElementById('deviceready').classList.add('ready');
+}
+
+// Fonction pour afficher le popup avec le contenu du message
+document.querySelectorAll('.message').forEach(item => {
+    item.addEventListener('click', event => {
+        document.getElementById('popup-text').innerText = item.getAttribute('data-content');
+        const refMess = item.getAttribute('data-ref');
+        const author = item.getAttribute('data-author');
+        document.getElementById('popup-author').innerText = author;
+
+        if (refMess.trim() === '') {
+            document.getElementById('popup-ref').style.display = 'none';
+        } else {
+            document.getElementById('popup-ref').innerHTML = "<strong>Inspiré de:</strong> " + refMess;
+            document.getElementById('popup-ref').style.display = 'block';
+        }
+        document.getElementById('popup').style.display = 'flex';
+    });
+});
+
+// Fonction pour fermer le popup
+document.querySelector('.close').addEventListener('click', () => {
+    document.getElementById('popup').style.display = 'none';
+});
+
+// Fermer le popup en cliquant en dehors du contenu
+window.addEventListener('click', event => {
+    if (event.target == document.getElementById('popup')) {
+        document.getElementById('popup').style.display = 'none';
+    }
+});

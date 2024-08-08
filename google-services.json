@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "771209075398",
+    "project_id": "mi-pocket-13f96",
+    "storage_bucket": "mi-pocket-13f96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771209075398:android:cdac41c726a872999ed5c7",
+        "android_client_info": {
+          "package_name": "com.skydev.mipocket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAa5opvHpgI7N7HJT69iWULZbxnky5UhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

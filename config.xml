@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.skydev.mipocket" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>MI pocket</name>
+    <description>MESSAGES D'IMPACT pocket</description>
+    <author email="skydevdev@gmail.com" href="https://cordova.apache.org">
+        SKYDEV
+    </author>
+    <content src="index.html" />
+    <allow-navigation href="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <access origin="*" />
+
+    <platform name="android">
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/mip_white.png" />
+        <preference name="AndroidWindowSplashScreenBackground" value="#000000" />
+        
+        <!--
+            <uses-permission android:name="android.permission.INTERNET" />
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+            <feature name="Whitelist">
+                <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+                <param name="onload" value="true" />
+            </feature>
+            <feature name="SplashScreen">
+                <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+                <param name="onload" value="true" />
+            </feature>
+
+            <preference name="AutoHideSplashScreen" value="true"/>
+            <preference name="SplashScreenDelay" value="0000" />
+            <preference name="AndroidWindowSplashScreenBackground" value="#000000" />
+            <preference name="AndroidWindowSplashScreenIconBackgroundColor" value="#FFFFFF" />
+        -->
+    </platform>
+
+    <icon src="www/img/mip_logo.png" />
+    <preference name="loglevel" value="DEBUG" />
+</widget>

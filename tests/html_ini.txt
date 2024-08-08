@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>MI pocket</title>
+</head>
+<body>
+    <header>
+        <h1>Messages</h1>
+    </header>
+    <main>
+
+        <!-- Exemple de messages statiques -->
+        <div class="message" data-content="Message 1 content" data-ref="Lc15:11-32" data-author="Author 1">
+            <p>Message 1 content preview...</p>
+            <span class="new-message"></span>
+        </div>
+
+    </main>
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p id="popup-text"></p>
+            <div class="popup-signature">
+                <span id="popup-ref"></span>
+                <span class="auteur"><strong id="popup-author"></strong></span>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

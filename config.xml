@@ -37,7 +37,7 @@
         <icon src="www/img/mip_logo.png" />
     </platform>
     <platform name="ios">
-        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/mip_white.png" />
+        <preference name="SplashScreenDelay" value="3000" />
         <icon src="www/img/mip_logo.png" />
     </platform>
 

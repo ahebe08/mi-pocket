@@ -32,9 +32,13 @@
             <preference name="SplashScreenDelay" value="0000" />
             <preference name="AndroidWindowSplashScreenBackground" value="#000000" />
             <preference name="AndroidWindowSplashScreenIconBackgroundColor" value="#FFFFFF" />
+            <preference name="loglevel" value="DEBUG" />
         -->
+        <icon src="www/img/mip_logo.png" />
+    </platform>
+    <platform name="ios">
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/mip_white.png" />
+        <icon src="www/img/mip_logo.png" />
     </platform>
 
-    <icon src="www/img/mip_logo.png" />
-    <preference name="loglevel" value="DEBUG" />
 </widget>

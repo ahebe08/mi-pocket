@@ -2,7 +2,7 @@
     "android": {
         "debug": {
             "keystore": "mykey_mip.jks",
-            "storePassword": "android",
+            "storePassword": "MIPskydev00751",
             "alias": "mykey_mip",
             "password" : "MIPskydev00751",
             "keystoreType": "",
@@ -10,7 +10,7 @@
         },
         "release": {
             "keystore": "mykey_mip.jks",
-            "storePassword": "",
+            "storePassword": "MIPskydev00751",
             "alias": "mykey_mip",
             "password" : "MIPskydev00751",
             "keystoreType": "",

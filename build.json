@@ -1,0 +1,20 @@
+{
+    "android": {
+        "debug": {
+            "keystore": "mykey_mip.jks",
+            "storePassword": "android",
+            "alias": "mykey_mip",
+            "password" : "MIPskydev00751",
+            "keystoreType": "",
+            "packageType": "apk"
+        },
+        "release": {
+            "keystore": "mykey_mip.jks",
+            "storePassword": "",
+            "alias": "mykey_mip",
+            "password" : "MIPskydev00751",
+            "keystoreType": "",
+            "packageType": "bundle"
+        }
+    }
+}
